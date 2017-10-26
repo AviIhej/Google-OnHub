@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,700,900');
+
+
+*{
+    box-sizing: border-box;
+    transition: ease-in-out;
+}
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header
+===================*/
+
+nav ul{
+    margin: 0;
+    padding: 1.5em 1.5em 0 0;
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li{
+    margin: 1em;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 1em;
+    color: rgb(106, 115, 124);
+}
+
+nav a:hover,
+nav a:focus{
+    color: #00aceb;
+}
+
+.logo{
+    padding: 2em 0 0 2em;
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+    float: left;
+}
+
+/* Typograohy
+===================*/
+
+.title{
+    font-size: 2em;
+    font-weight: 2em;
+    color: #00aceb;
+    /* color: #00a681; */
+}
+
+.title span{
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+}
+
+.home-hero p{
+    font-size: 1.1em;
+    color: rgb(86, 93, 100);
+    font-weight: 500;
+}
+
+.home-hero a{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+
+.home-hero i{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+
+.home-hero a:hover,
+.home-hero a:focus{
+    color: #00aceb;
+}
+
+.home-hero i:hover,
+.home-hero i:focus{
+    color: #00aceb;
+}
+
+.home-about p{
+    font-size: 1.1em;
+}
+
+.home-about a{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+
+.home-about i{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+
+.home-about a:hover,
+.home-about a:focus{
+    color: #00aceb;
+}
+
+.home-about i:hover,
+.home-about i:focus{
+    color: #00aceb;
+}
+.home-family-textbox a{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+.home-family-textbox i{
+    text-decoration: none;
+    color: rgb(86, 93, 100);
+}
+.home-family-textbox a:hover,
+.home-family-textbox a:focus{
+    color: #00aceb;
+}
+.home-family-textbox i:hover,
+.home-family-textbox i:focus{
+    color: #00aceb;
+}
+.home-tp p{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #8a8a8a;
+    text-align: left;
+}
+.home-tp-textbox-right h3{
+    font-size: 1.1em;
+    color: #00aceb;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.home-tp span{
+    font-weight: 300;
+    display: inline-block;
+    font-size: .9em;
+}
+
+.home-shells p{
+    font-weight: 680;
+    font-size: 1em;
+    color: #8a8a8a;
+} 
+
+.home-shells h1{
+    font-size: 2.5em;
+    font-weight: 1em;
+    color: #00aceb;
+}
+
+.home-shells .learn-more-p2{
+    font-size: 1.1em;
+    color: #00aceb;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+/* Hero
+===================*/
+
+.home-hero{
+    background-image: url(onhub-hero3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    /* color: #0C374D; */
+    color: #00aceb;
+    height: 100vh;
+    padding-top: 35vh;
+}
+
+.home-hero img{
+    float: right;
+    height: 100%;
+    width: 100%;
+    max-height: 40em;
+    max-width: 40em;
+    top: 300em;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 70em;
+}
+
+/* Home About
+===================*/
+
+.home-about{
+    margin-top: 10em;
+}
+
+.home-about-textbox{
+    float: left;
+    padding-left: 5em;
+    padding-top: 4em;
+}
+
+.home-about-router{
+    float: right;
+}
+
+.home-about-router img{
+    height: 100%;
+    width: 100%;
+    /* max-height: 1608; */
+    /* max-width: 1208; */
+    max-height: 500px;
+    max-width: 500px;
+}
+
+/* Home Family
+===================*/
+
+.home-family{
+    margin-top: 0em;
+}
+
+.home-family-textbox{
+    float: right;
+    padding-left: 5em;
+    margin-top: 15em;
+}
+
+.home-family-router{
+    padding-top: 10em;
+    float: left;
+}
+
+.home-family-router img{
+    height: 100%;
+    width: 100%;
+    /* max-height: 1608; */
+    /* max-width: 1208; */
+    max-height: 500px;
+    max-width: 500px;
+}
+
+
+/* Home TP
+===================*/
+.container .home-tp{
+    text-align: center;
+}
+
+.home-tp{
+  margin-top: 5em;
+}
+
+.home-tp .home-tp-textbox-left{
+    float: left;
+    width: 33%;
+    margin-top: 6em;
+}
+
+.home-tp-textbox-left .p2{
+    margin-top: 12em;
+}
+
+.home-tp .home-tp-textbox-right{
+    float: right;
+    width: 33%;
+    padding-top: 14em;
+}
+.home-tp-textbox-right .p2{
+    margin-top: 16em;
+}
+
+.home-tp-textbox-right h3{
+    margin-top: 5em;
+
+}
+
+.home-tp .home-tp-router{
+    display: inline-block;
+    width: 33%;
+}
+
+.home-tp-textbox{
+    float: right;
+    padding-left: 5em;
+    margin-top: 15em;
+}
+
+.home-tp-router{
+    padding-top: 5em;
+    /* float: left; */
+}
+
+.home-tp-router img{
+    height: 100%;
+    width: 100%;
+    /* max-height: 1608; */
+    /* max-width: 1208; */
+    max-height: 850px;
+    max-width: 300px;
+    padding-bottom: 5em;
+}
+
+
+
+/* Home Shells
+===================*/
+
+.home-shells{
+    margin-top: 15em;
+    text-align: center;
+}
+
+.home-onhub-shells {
+    margin: 0 auto;
+    width: 50%;
+    /* Or 30% */
+}
+
+.home-onhub-shells img{
+    height: 100%;
+    width: 100%;
+    /* max-height: 1608; */
+    /* max-width: 1208; */
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.home-shells-textbox{
+    margin: 0 auto;
+    width: 50%;
+
+}
+.learn-more-p1{
+    margin-bottom: 5em;
+}
+.learn-more-p2{
+    margin-bottom: 3em;
+}
+
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* Retailers
+===================*/
+
+.r{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+/* .r-box{
+
+} */
+
+.r-box img{
+    height: 100%;
+    width: 100%;
+    max-height: 100px;
+    max-width: 100px;
+    display: inline-block;
+    margin: 0 2em 0 2em;
+}
+
+.r-box .bestbuy{
+    height: 100%;
+    width: 100%;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+
+/* Footer
+===================*/
+
+footer{
+    background-color: #00233b;
+    width: 100%;
+    height: 80px;;
+}
+
+.footer p{
+    float: left;
+    margin: 1.5em 0 0 5em;
+    font-size: 1.1em;
+     color: rgb(220, 222, 224);
+    font-weight: 500;
+}
+
+.footer ul{
+    float: right;
+    list-style-type: none;
+    font-size: 1.1em;
+    color: rgb(220, 222, 224);
+    font-weight: 500;
+    margin: 1em 5em 0 0; 
+}
+.footer li {
+    display: inline-block;
+    margin: .8em 1em 0 0; 
+}
+.footer span{
+    font-weight: 200;
+    font-size: .8em;
+}
+
+
+
+/* .hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 84, 161, 2);
+    opacity: 0.7;
+} */
